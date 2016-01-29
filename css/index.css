@@ -1,0 +1,357 @@
+body{
+	margin:0;
+	min-width:980px;
+	font: 13px / 1.4 Helvetica, arial, nimbussansl, liberationsans, freesans, clean, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	color: #333;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p,form{
+	margin:0;
+	padding:0;
+	/*使用ul和li的时候*/
+	list-style:none;
+}
+a{
+	color: #4078c0;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: underline;
+}
+/*页面头部*/
+
+.header{
+    
+	padding:15px 0;
+	/*border:1px solid red;*/
+	background:#f5f5f5;
+}
+.logo{
+	font-size:30px;
+    float:left;
+    font-weight:bold;
+    margin-right:10px;
+}
+.search{
+	position: relative;
+	float: left;
+	width: 360px;
+	margin-right: 10px;
+}
+.form-control{
+	position: relative;
+	width: 100%;
+	font-size: 12px;
+	display: block;
+	line-height: 17px;
+	color: #333;
+	vertical-align: middle;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: right 8px center;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	outline: none;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+}
+
+.chromeless-input{
+	background: none;
+	min-height: 22px;
+	display: inline-block;
+	font-size: 12px;
+	padding: 3px 5px;
+	line-height:22px;
+	width: 250px;
+	border: 0;
+	box-shadow: none;
+	vertical-align: middle;
+}
+
+.header-c{
+	width:28px;
+	line-height:28px;
+	height:28px;
+}
+/*后代选择器*/
+.functionlist{
+	float:left;
+}
+.functionlist li {
+	float:left;
+	padding:0 6px;
+	font-size:13px;
+	font-weight: bold;
+	
+}
+.functionlist a{
+	color:#333;
+}
+.functionlist li a:hover{
+	color: #4078c0;
+	text-decoration: none;
+}
+/*群组选择器*/
+.signup , .signin{
+	font-size:13px;
+	padding:6px 16px;
+	float:left;
+	font-weight: bold;
+	margin-top:-5px;
+	line-height:24px;
+	border-radius: 5px;
+}
+.signup{
+	margin-right: 5px;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+	
+}
+.btn-primary{
+	color: #fff;
+	background-color: #60b044;
+	border-color: #5ca941;
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+.btn-primary:hover{
+	background-image: linear-gradient(#79d858, #569e3d);
+	color: #fff;
+	background-color: #569e3d;
+	border-color: #4a993e;
+}
+.signin{
+	background: #eee;
+	background-image: linear-gradient(#fcfcfc, #eee);
+	border: 1px solid #d5d5d5;
+}
+.signin:hover{
+	text-decoration: none;
+	background-color: #ddd;
+	background-image: linear-gradient(#eee, #ddd);
+	border-color: #ccc;
+}
+/*页面整体设置*/
+
+.section{
+	position: relative;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid #e5e5e5;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.container{
+	width:980;
+	margin:0 auto;
+	/*border:2px solid black;*/
+}
+
+/*第二块页面*/
+.marketing-section-signup{
+	background: #202021 url('../img/octicons-bg.png') center repeat;
+}
+.main{
+	border-bottom:1px solid #202020;
+}
+.main-c{
+	height:351px;
+}
+.main-intro{
+	width:620px;
+	color:#f5f5f5;
+	/*border:1px solid red;*/
+	float:left;
+}
+
+.main-intro p{
+	font-size:21px;
+	line-height:1.5;
+	margin: 10px 0 0;
+	color: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.big-title{
+	font-size:70px;
+	padding-top:10px;
+	margin-bottom:35px;
+    font-weight: normal;
+}
+.signup-form{
+	width:320px;
+	height:358px;
+	color: #767676;
+	float:right;
+	margin-left: 40px;
+}
+.signup-form-w{
+	min-height: 34px;
+	background-color: #fafafa;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #333;
+    line-height:34px;
+    position: relative;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.textfield{
+	width: 100%;
+	margin-right: 0;
+	padding: 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border-color: #fff;
+	background-color: #fafafa;
+	outline: none;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
+	background-position: right 8px center;
+	border: 1px solid #ccc;
+}
+.a{
+	min-height: 20px;
+    line-height: 20px;
+	padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom:13px;
+	background-image: linear-gradient(#8add6d, #60b044);
+}
+.a h4{
+	  text-align:center;
+}
+.signup-zi{
+	color: #767676;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	margin:6px 0;
+}
+
+/*第三、四、五块整体设置字体*/
+
+.sub-title{
+	font-size:42px;
+	text-align: center;
+	font-weight:normal;/*粗体*/
+}
+/*第三块页面*/
+.enterprise{
+	padding-top: 80px;
+	padding-bottom: 80px;
+	overflow: hidden;
+	max-height: 225px;
+	box-shadow: inset 0 10px 20px rgba(0,0,0,0.1);
+	background-image: linear-gradient(#202d5f, #614381);
+}
+/*后代选择器*/
+.enterprise h2{
+	color:#f5f5f5;
+}
+.bgn{
+	text-align:center;
+	color:#f5f5f5;
+	padding:12px 20px;
+	font-size:18px;
+	border-radius:6px;
+}
+.btn-blue{
+	display: inline-block;
+	margin:12px auto;
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	border: 0;
+	background-color: #1d6ac8;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+	background-image: linear-gradient(#45b3f3, #1d6ac8);
+}
+.btn-blue:hover{
+	color: #fff;
+	background-image: linear-gradient(#2da9f1, #1a5eb2);
+}
+/*第四五块整体设置*/
+.sub-info{
+	font-size:18px;
+	color:#767676;
+	text-align:center;
+	margin:20px 0;
+}
+
+/*第四块页面*/
+
+.love{
+	height:800px;
+}
+.love-reason{
+	width:44%;
+	padding: 20px 25px 40px;
+	float:left;
+	text-align:center;
+	font-size: 14px;
+}
+
+.l-img{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+	border:1px solid #e5e5e5;
+	margin:20px auto 40px;
+	
+}
+#ee{
+	margin:20px auto;
+}
+.l-zi{
+	margin:30px auto;
+}
+
+
+/*第五块页面*/
+
+.gh-image{
+	width:100%;
+	display: block;
+	max-width: 980px;
+	margin: 40px auto;
+	border-radius: 5px;
+	border: 1px solid rgba(0,0,0,0.25);
+	box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+.gh-zi{
+	font-size: 21px;
+	font-weight: normal;
+	margin-top: 40px;
+	margin-bottom: 15px;
+	line-height: 1.1;
+	text-align: center;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.btn-green{
+	width:272px;
+	margin:15px auto;
+}
+
+/*第六块页面*/
+.end{
+	float:left;
+	
+}
+.end li,.end1 li{
+	font-size: 12px;
+	line-height: 16px;
+	float:left;
+	margin-left:15px;
+	color:#767676;
+}
+#mao{
+	margin-top:-10px;
+	margin-left:120;
+}
+.end1{
+	float:right;
+}
+.last{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+
